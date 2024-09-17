@@ -7,7 +7,7 @@ void Summator::add(int p_value) {
 }
 
 void Summator::substract(int p_value) {
-	count += p_value;
+	count -= p_value;
 }
 
 void Summator::reset() {
