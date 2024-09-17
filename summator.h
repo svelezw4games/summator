@@ -15,6 +15,8 @@ protected:
 
 public:
 	void add(int p_value);
+	void substract(int p_value);
+	void multiply(int p_value);
 	void reset();
 	int get_total() const;
 
