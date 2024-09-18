@@ -18,6 +18,7 @@ public:
 	void substract(int p_value);
 	void multiply(int p_value);
 	void division(int p_value);
+	void power(int p_value);
 	void reset();
 	int get_total() const;
 
