@@ -19,7 +19,7 @@ void Summator::division(int p_value) {
 }
 
 void Summator::power(int p_value) {
-	count *= count;
+	count *= (count * p_value);
 }
 
 void Summator::reset() {
